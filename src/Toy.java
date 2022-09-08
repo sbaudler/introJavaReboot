@@ -8,7 +8,7 @@ when mouse clicked: change color
 
 import processing.core.PApplet;
 
-public class Toy extends PApplet implements Drawable, Clickable{
+public class Toy extends PApplet implements Drawable, Clickable, MadeIt {
     private int upperLeftX;
     private int upperLeftY; //using upper left corner to position toys //position
     private int width;
@@ -53,7 +53,7 @@ public class Toy extends PApplet implements Drawable, Clickable{
         blue = (int) random(256);
 
     }
-
+    public void madeIt(){}
 
     public int getUpperLeftX(){
         return upperLeftX;

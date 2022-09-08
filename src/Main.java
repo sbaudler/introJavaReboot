@@ -3,7 +3,7 @@ import processing.core.PApplet;
 public class Main extends PApplet {
 
 private Toy[] toys; //declare the toys array //this is supposed to be a Drawable thing but everytime i try it just breaks and i can't fix
-final int ROWS = 2; //these are special and they can't be reassigned
+final int ROWS = 3; //these are special and they can't be reassigned
 final int COLUMNS = 3; //^
 
 public static void main(String[] args){
@@ -33,8 +33,10 @@ public void setup() {
         Toy t;
         if (i < (COLUMNS)){
         t = new EarlGrey(this, x, y, w, h);
-        } else {
+        } else if (i < (COLUMNS) * 2){
         t = new Jasmine(this, x, y, w, h);
+        } else {
+        t = new Peppermint (this, x, y, w, h);
         }
 
 

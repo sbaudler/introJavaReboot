@@ -3,6 +3,8 @@ import processing.core.PImage;
 
 public class Jasmine extends Toy { //will maybe draw an image of a bear
     private PImage img;
+
+    private PImage cup;
     int _w;
     int _h;
 
@@ -16,6 +18,10 @@ public class Jasmine extends Toy { //will maybe draw an image of a bear
         img = getPApplet().loadImage("data/myTEAimages.jpg");
         getPApplet().image(img, 100, 25, 800, 250);
         img.resize(_w, _h);
+
+        cup = getPApplet().loadImage("data/istockphoto-1290181267-612x612.jpg");
+        getPApplet().image(cup, 100, 25, 800, 250);
+        cup.resize(_w, _h);
     }
 
     public void drawToy(){
@@ -24,7 +30,14 @@ public class Jasmine extends Toy { //will maybe draw an image of a bear
     }
 
     public void doClickAction(int x, int y){
-
+        img = cup;
+        madeIt();
     }
+
+    public void madeIt() {
+        getPApplet().imageMode(CORNER);
+        getPApplet().image(cup, getUpperLeftX(), getUpperLeftY());
+    }
+
 
 }

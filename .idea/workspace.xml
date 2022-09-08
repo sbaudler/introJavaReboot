@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdc49408-c5a2-4520-853e-c9feb2eebaa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clickable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Drawable.java" afterDir="false" />
+    <list default="true" id="cdc49408-c5a2-4520-853e-c9feb2eebaa4" name="Changes" comment="yeah so now it runs but doesn't do what i want but i give up sorry">
+      <change afterPath="$PROJECT_DIR$/data/1651980-794522200122-05.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/download-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hot-cup-of-tea-on-a-saucer-ink-black-and-white-drawing-RW1FJA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/istockphoto-1290181267-612x612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MadeIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Peppermint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introJavaReboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/introJavaReboot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EarlGrey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EarlGrey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Jasmine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jasmine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -32,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661793710052</updated>
     </task>
+    <task id="LOCAL-00001" summary="it works but committing before i break it">
+      <created>1662409948720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662409948720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,5 +95,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="it works but committing before i break it" />
+    <MESSAGE value="yeah so now it runs but doesn't do what i want but i give up sorry" />
+    <option name="LAST_COMMIT_MESSAGE" value="yeah so now it runs but doesn't do what i want but i give up sorry" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/introJavaReboot$Main.ic" NAME="Main Coverage Results" MODIFIED="1662657230267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
