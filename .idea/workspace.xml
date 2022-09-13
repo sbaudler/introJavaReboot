@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdc49408-c5a2-4520-853e-c9feb2eebaa4" name="Changes" comment="yeah so now it runs but doesn't do what i want but i give up sorry">
-      <change afterPath="$PROJECT_DIR$/data/1651980-794522200122-05.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/download-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/hot-cup-of-tea-on-a-saucer-ink-black-and-white-drawing-RW1FJA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/istockphoto-1290181267-612x612.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MadeIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Peppermint.java" afterDir="false" />
+    <list default="true" id="cdc49408-c5a2-4520-853e-c9feb2eebaa4" name="Changes" comment="yay! it works and its super cute">
+      <change afterPath="$PROJECT_DIR$/src/ImageWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EarlGrey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EarlGrey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Jasmine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jasmine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Peppermint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Peppermint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Toy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +38,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -51,16 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662409948720</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="yay! it works and its super cute">
+      <created>1662658281745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662658281745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="it works but committing before i break it" />
     <MESSAGE value="yeah so now it runs but doesn't do what i want but i give up sorry" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeah so now it runs but doesn't do what i want but i give up sorry" />
+    <MESSAGE value="yay! it works and its super cute" />
+    <option name="LAST_COMMIT_MESSAGE" value="yay! it works and its super cute" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/introJavaReboot$Main.ic" NAME="Main Coverage Results" MODIFIED="1662657230267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
